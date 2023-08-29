@@ -35,6 +35,7 @@ When there is one or multiple views on the stack (not just the selection of the 
 
 
 Issue exists on:
+ - Xcode 15.0 Beta 8 with iOS 17.0 (21A5326a)
  - Xcode 15.0 Beta 7 with iOS 17.0 (21A5317a)
  - Xcode 15.0 Beta 6 with iOS 17.0 (21A5303d)
  - Xcode 15.0 Beta 5 with iOS 17.0 (21A5291g)
