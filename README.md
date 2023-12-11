@@ -2,6 +2,7 @@
 
 ## NavigationSplitView with NavigationStack inside crashes when it appears with content on the NavigationPath
 
+## Fixed in iOS 17.2
 
 ### Scenario
 
@@ -34,13 +35,18 @@ When there is one or multiple views on the stack (not just the selection of the 
 5. Enable the toggle to show the view again.
 
 
-Issue exists on:
+## Fixed in iOS 17.2
+
+Issue no longer exists in iOS 17.2 (21C5046b).
+Tested with Xcode Version 15.1 beta 3 (15C5059c).
+
+### Issue exists on:
  - Xcode 15.0 Beta 8 with iOS 17.0 (21A5326a)
  - Xcode 15.0 Beta 7 with iOS 17.0 (21A5317a)
  - Xcode 15.0 Beta 6 with iOS 17.0 (21A5303d)
  - Xcode 15.0 Beta 5 with iOS 17.0 (21A5291g)
  - Xcode 15.0 RC (15A240d) with iOS 17.0 (21A328)
  
-Works on:
+### Works on:
  - Xcode 15.0 Beta 4 with iOS 17.0 (21A5277g)
 
